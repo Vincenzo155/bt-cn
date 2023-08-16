@@ -6032,7 +6032,7 @@ echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} 
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|title="Next"|title="下一张"|g' $FILE
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|The image is the maximum size|图像放大，已达到最大尺寸。|g' $FILE
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|The image is the minimum size|图像缩小，已达到最小尺寸。|g' $FILE
-echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|您的浏览器不支持 video 标签。|Your browser does not support video tags|g' $FILE
+echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|Your browser does not support video tags|您的浏览器不支持 video 标签。|g' $FILE
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|Playing \[|正在播放\[|g' $FILE
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|>File name<|>文件名<|g' $FILE
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|Your browser does not support the \[video\] tag.|您的浏览器不支持 video 标签。|g' $FILE
@@ -6123,7 +6123,7 @@ echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} 
 FILE="/www/server/panel/BTPanel/static/js/index.js"
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|Physical core,|个物理核心，,|g' $FILE
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|Logical core|个逻辑核心|g' $FILE
-echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|点击清理内存|Click to free RAM|g' $FILE
+echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|Click to free RAM|点击清理内存|g' $FILE
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|This scan check <i>|本次扫描共检测到风险项<i>|g' $FILE
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|risks, please repair them in time!|个,请及时修复！|g' $FILE
 echo -en "  完成进度：${YELLOW}"$(echo $LINENO*100/$LINES | bc) "%${RECOL} ${SKY}( $LINENO/$LINES )${RECOL}\r" && sed -i 's|There is no risk item detected in this scan, please keep it!|本次扫描检测无风险项，请继续保持！|g' $FILE
